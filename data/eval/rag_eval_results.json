@@ -1,0 +1,192 @@
+{
+  "total_cases": 15,
+  "source_recall_hits": 15,
+  "keyword_total": 52,
+  "keyword_hits": 49,
+  "avg_docs_retrieved": 3.0,
+  "details": [
+    {
+      "id": "rag_001",
+      "query": "iPhone 15 Pro Max 多少钱？",
+      "category": "商品价格",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "product_catalog.md",
+        "product_catalog.md",
+        "product_catalog.md"
+      ]
+    },
+    {
+      "id": "rag_002",
+      "query": "华为 Mate 60 Pro 有什么颜色？",
+      "category": "商品信息",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "product_catalog.md",
+        "product_catalog.md",
+        "product_catalog.md"
+      ]
+    },
+    {
+      "id": "rag_003",
+      "query": "MacBook Pro 14 寸配置是什么？",
+      "category": "商品配置",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "product_catalog.md",
+        "product_catalog.md",
+        "product_catalog.md"
+      ]
+    },
+    {
+      "id": "rag_004",
+      "query": "七天无理由退货条件是什么？",
+      "category": "退货政策",
+      "source_recall": true,
+      "keyword_hit_rate": 0.75,
+      "retrieved_sources": [
+        "after_sales_policy.md",
+        "after_sales_policy.md",
+        "after_sales_policy.md"
+      ]
+    },
+    {
+      "id": "rag_005",
+      "query": "退款多久到账？",
+      "category": "退款政策",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "after_sales_policy.md",
+        "after_sales_policy.md",
+        "after_sales_policy.md"
+      ]
+    },
+    {
+      "id": "rag_006",
+      "query": "哪些商品不能退货？",
+      "category": "退货限制",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "after_sales_policy.md",
+        "after_sales_policy.md",
+        "after_sales_policy.md"
+      ]
+    },
+    {
+      "id": "rag_007",
+      "query": "快递一般几天能到？",
+      "category": "物流时效",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "delivery_guide.md",
+        "delivery_guide.md",
+        "delivery_guide.md"
+      ]
+    },
+    {
+      "id": "rag_008",
+      "query": "包邮条件是什么？",
+      "category": "运费政策",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "delivery_guide.md",
+        "delivery_guide.md",
+        "after_sales_policy.md"
+      ]
+    },
+    {
+      "id": "rag_009",
+      "query": "满减活动有哪些？",
+      "category": "促销活动",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "promotions.md",
+        "promotions.md",
+        "promotions.md"
+      ]
+    },
+    {
+      "id": "rag_010",
+      "query": "会员等级有哪些权益？",
+      "category": "会员权益",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "promotions.md",
+        "promotions.md",
+        "promotions.md"
+      ]
+    },
+    {
+      "id": "rag_011",
+      "query": "积分怎么获得？",
+      "category": "积分规则",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "promotions.md",
+        "promotions.md",
+        "promotions.md"
+      ]
+    },
+    {
+      "id": "rag_012",
+      "query": "以旧换新怎么操作？",
+      "category": "换新政策",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "promotions.md",
+        "promotions.md",
+        "after_sales_policy.md"
+      ]
+    },
+    {
+      "id": "rag_013",
+      "query": "小米 14 Ultra 相机怎么样？",
+      "category": "商品特性",
+      "source_recall": true,
+      "keyword_hit_rate": 1.0,
+      "retrieved_sources": [
+        "product_catalog.md",
+        "product_catalog.md",
+        "product_catalog.md"
+      ]
+    },
+    {
+      "id": "rag_014",
+      "query": "Apple Watch Ultra 2 防水吗？",
+      "category": "商品特性",
+      "source_recall": true,
+      "keyword_hit_rate": 0.6666666666666666,
+      "retrieved_sources": [
+        "product_catalog.md",
+        "product_catalog.md",
+        "product_catalog.md"
+      ]
+    },
+    {
+      "id": "rag_015",
+      "query": "商品保修期是多久？",
+      "category": "保修政策",
+      "source_recall": true,
+      "keyword_hit_rate": 0.6666666666666666,
+      "retrieved_sources": [
+        "product_catalog.md",
+        "after_sales_policy.md",
+        "after_sales_policy.md"
+      ]
+    }
+  ],
+  "source_recall_rate": 1.0,
+  "keyword_hit_rate": 0.9423076923076923,
+  "timestamp": "2026-01-28T20:08:21.856480"
+}

@@ -1,0 +1,112 @@
+{
+  "name": "RAG 召回率评测数据集",
+  "description": "用于评测 RAG 知识库检索效果",
+  "version": "1.0",
+  "test_cases": [
+    {
+      "id": "rag_001",
+      "query": "iPhone 15 Pro Max 多少钱？",
+      "expected_sources": ["product_catalog.md"],
+      "expected_keywords": ["9999", "13999", "钛金属"],
+      "category": "商品价格"
+    },
+    {
+      "id": "rag_002",
+      "query": "华为 Mate 60 Pro 有什么颜色？",
+      "expected_sources": ["product_catalog.md"],
+      "expected_keywords": ["雅丹黑", "南糯紫", "雅川青", "白沙银"],
+      "category": "商品信息"
+    },
+    {
+      "id": "rag_003",
+      "query": "MacBook Pro 14 寸配置是什么？",
+      "expected_sources": ["product_catalog.md"],
+      "expected_keywords": ["M3 Pro", "M3 Max", "Liquid Retina"],
+      "category": "商品配置"
+    },
+    {
+      "id": "rag_004",
+      "query": "七天无理由退货条件是什么？",
+      "expected_sources": ["after_sales_policy.md"],
+      "expected_keywords": ["7天", "未拆封", "未使用", "二次销售"],
+      "category": "退货政策"
+    },
+    {
+      "id": "rag_005",
+      "query": "退款多久到账？",
+      "expected_sources": ["after_sales_policy.md"],
+      "expected_keywords": ["3-7", "工作日", "原路返回"],
+      "category": "退款政策"
+    },
+    {
+      "id": "rag_006",
+      "query": "哪些商品不能退货？",
+      "expected_sources": ["after_sales_policy.md"],
+      "expected_keywords": ["定制", "激活", "耗材", "虚拟"],
+      "category": "退货限制"
+    },
+    {
+      "id": "rag_007",
+      "query": "快递一般几天能到？",
+      "expected_sources": ["delivery_guide.md"],
+      "expected_keywords": ["次日达", "一线城市", "省会"],
+      "category": "物流时效"
+    },
+    {
+      "id": "rag_008",
+      "query": "包邮条件是什么？",
+      "expected_sources": ["delivery_guide.md"],
+      "expected_keywords": ["99", "包邮", "运费"],
+      "category": "运费政策"
+    },
+    {
+      "id": "rag_009",
+      "query": "满减活动有哪些？",
+      "expected_sources": ["promotions.md"],
+      "expected_keywords": ["满减", "2000", "5000", "10000"],
+      "category": "促销活动"
+    },
+    {
+      "id": "rag_010",
+      "query": "会员等级有哪些权益？",
+      "expected_sources": ["promotions.md"],
+      "expected_keywords": ["银卡", "金卡", "钻石", "折扣"],
+      "category": "会员权益"
+    },
+    {
+      "id": "rag_011",
+      "query": "积分怎么获得？",
+      "expected_sources": ["promotions.md"],
+      "expected_keywords": ["消费", "签到", "评价", "邀请"],
+      "category": "积分规则"
+    },
+    {
+      "id": "rag_012",
+      "query": "以旧换新怎么操作？",
+      "expected_sources": ["promotions.md"],
+      "expected_keywords": ["估价", "下单", "邮寄", "验收"],
+      "category": "换新政策"
+    },
+    {
+      "id": "rag_013",
+      "query": "小米 14 Ultra 相机怎么样？",
+      "expected_sources": ["product_catalog.md"],
+      "expected_keywords": ["徕卡", "Summilux", "摄影"],
+      "category": "商品特性"
+    },
+    {
+      "id": "rag_014",
+      "query": "Apple Watch Ultra 2 防水吗？",
+      "expected_sources": ["product_catalog.md"],
+      "expected_keywords": ["防水", "100米", "潜水"],
+      "category": "商品特性"
+    },
+    {
+      "id": "rag_015",
+      "query": "商品保修期是多久？",
+      "expected_sources": ["product_catalog.md"],
+      "expected_keywords": ["1年", "官方保修", "AppleCare"],
+      "category": "保修政策"
+    }
+  ]
+}

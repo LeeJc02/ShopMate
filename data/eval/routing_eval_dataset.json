@@ -1,0 +1,127 @@
+{
+    "name": "Agent 路由准确率评测数据集",
+    "description": "用于评测 Supervisor Agent 的意图路由准确率",
+    "version": "1.0",
+    "test_cases": [
+        {
+            "id": "route_001",
+            "query": "你好",
+            "expected_agent": "ChitchatAgent",
+            "category": "闲聊"
+        },
+        {
+            "id": "route_002",
+            "query": "今天天气怎么样",
+            "expected_agent": "ChitchatAgent",
+            "category": "闲聊"
+        },
+        {
+            "id": "route_003",
+            "query": "谢谢你的帮助",
+            "expected_agent": "ChitchatAgent",
+            "category": "闲聊"
+        },
+        {
+            "id": "route_004",
+            "query": "iPhone 15 Pro 多少钱？",
+            "expected_agent": "ProductAgent",
+            "category": "商品咨询"
+        },
+        {
+            "id": "route_005",
+            "query": "有什么手机推荐？",
+            "expected_agent": "ProductAgent",
+            "category": "商品推荐"
+        },
+        {
+            "id": "route_006",
+            "query": "MacBook Pro 的配置怎么样？",
+            "expected_agent": "ProductAgent",
+            "category": "商品咨询"
+        },
+        {
+            "id": "route_007",
+            "query": "现在有什么优惠活动？",
+            "expected_agent": "ProductAgent",
+            "category": "促销咨询"
+        },
+        {
+            "id": "route_008",
+            "query": "会员折扣是多少？",
+            "expected_agent": "ProductAgent",
+            "category": "促销咨询"
+        },
+        {
+            "id": "route_009",
+            "query": "查一下我的订单",
+            "expected_agent": "OrderAgent",
+            "category": "订单查询"
+        },
+        {
+            "id": "route_010",
+            "query": "订单 ORD20240001 物流到哪了？",
+            "expected_agent": "OrderAgent",
+            "category": "物流查询"
+        },
+        {
+            "id": "route_011",
+            "query": "我的快递什么时候到？",
+            "expected_agent": "OrderAgent",
+            "category": "物流查询"
+        },
+        {
+            "id": "route_012",
+            "query": "订单发货了吗？",
+            "expected_agent": "OrderAgent",
+            "category": "订单状态"
+        },
+        {
+            "id": "route_013",
+            "query": "我想退货",
+            "expected_agent": "AfterSalesAgent",
+            "category": "退货申请"
+        },
+        {
+            "id": "route_014",
+            "query": "商品有质量问题怎么办？",
+            "expected_agent": "AfterSalesAgent",
+            "category": "售后投诉"
+        },
+        {
+            "id": "route_015",
+            "query": "怎么申请换货？",
+            "expected_agent": "AfterSalesAgent",
+            "category": "换货申请"
+        },
+        {
+            "id": "route_016",
+            "query": "退款什么时候到账？",
+            "expected_agent": "AfterSalesAgent",
+            "category": "退款查询"
+        },
+        {
+            "id": "route_017",
+            "query": "手机屏幕坏了能修吗？",
+            "expected_agent": "AfterSalesAgent",
+            "category": "维修咨询"
+        },
+        {
+            "id": "route_018",
+            "query": "我要投诉",
+            "expected_agent": "AfterSalesAgent",
+            "category": "投诉"
+        },
+        {
+            "id": "route_019",
+            "query": "华为手机有货吗？",
+            "expected_agent": "ProductAgent",
+            "category": "库存咨询"
+        },
+        {
+            "id": "route_020",
+            "query": "支持分期付款吗？",
+            "expected_agent": "ProductAgent",
+            "category": "支付咨询"
+        }
+    ]
+}

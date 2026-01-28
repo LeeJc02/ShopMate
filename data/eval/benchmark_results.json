@@ -1,0 +1,27 @@
+{
+  "config": {
+    "base_url": "http://localhost:8000",
+    "total_requests": 20,
+    "concurrency": 3
+  },
+  "summary": {
+    "total_time": 30.27,
+    "success_count": 4,
+    "failure_count": 16,
+    "success_rate": 0.2,
+    "qps": 0.66,
+    "throughput": 0.13
+  },
+  "latency": {
+    "min": 11.697,
+    "max": 30.265,
+    "avg": 28.581,
+    "p50": 30.264,
+    "p95": 30.265,
+    "p99": 30.265
+  },
+  "errors": {
+    "Timeout": 16
+  },
+  "timestamp": "2026-01-28T20:09:04.251669"
+}
